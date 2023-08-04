@@ -203,7 +203,7 @@ def main(rank, world_size):
                             seed=args.seed,
                             T=args.temperature,
                             l=args.lmd,
-                            ls=args.lmd-s,
+                            ls=args.lmd_s,
                             alpha=args.alpha,
                             batch_size=args.batch_size,
                             to_cuda=args.to_cuda,
